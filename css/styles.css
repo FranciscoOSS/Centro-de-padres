@@ -231,9 +231,9 @@ body {
 .Ajuste {
   height: 380px;
   width: 1200px;
-  margin-left: 19%;
+  margin: 0 auto;
   justify-items: center;
-  text-align: justify;
+  text-align: justify;margin-bottom: 0;
 }
 
 .carousel {
@@ -245,7 +245,7 @@ body {
   font-family: "Montserrat", Sans-serif;
   padding-top:3% ;
   text-align: center;
-  margin-bottom: 40%;
+  margin-bottom: 900px;
   
 }
 .cargos{
