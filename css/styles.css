@@ -1,5 +1,5 @@
 body {
-  background-color: #F4DACD;
+  background-color: #ffff;
   margin: 0;
   color: #333333;
   font-family: "Raleway", Sans-serif;
@@ -82,22 +82,22 @@ body {
 .Nosotros {
   margin-left: 3%;
   margin-top: 3%;
-  width: 30%;
+  width: 65%;
   float: left;
 
   text-align: center;
   text-align: justify;
   text-justify: inter-word;
   justify-content: center;
-  font-size: 10px;
+  font-size: 20px;
   border-radius: 20px;
-  background-color: rgba(255, 183, 68, 0.5);
+  
   padding: 10px;
 }
 
 .Nosotros h1 {
 
-  font-size: 20px;
+  font-size: 30px;
   border-radius: 20px;
 }
 
@@ -108,16 +108,16 @@ body {
 .Vision {
   overflow: hidden;
   
-  margin-left: 67%;
+  margin-left: 70%;
   margin-top: 3%;
-  width: 30%;
+  width: 20%;
   text-align: center;
   text-align: justify;
   text-justify: inter-word;
   justify-content: center;
-  font-size: 5px;
+  
   border-radius: 20px;
-  background-color: rgba(255, 183, 68, 0.5);
+  
   padding: 10px;
 }
 .Vision h1{
@@ -246,12 +246,13 @@ body {
   padding-top:3% ;
   text-align: center;
   margin-bottom: 40%;
+  
 }
 .cargos{
   text-align: left;
   float: left;
  margin-left: 10%;
- font-size: 16px;
+ font-size: 20px;
  margin-top:3%;
 }
 .foto{
@@ -259,4 +260,26 @@ body {
   margin-right: 10%;
   float: right;
   overflow: hidden;
+}
+.proyecto{
+  margin-left:8%;
+  margin-right: 8%;
+  margin-top: 5%;
+  font-size: 20px; 
+  text-align: justify;
+}
+.noticia1 img{
+  height: 190px;
+  width: 255px;
+  -webkit-filter: brightness(100%);
+}
+.noticia1:hover{
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
