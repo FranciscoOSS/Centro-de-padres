@@ -7,28 +7,28 @@ body {
 
 #logoNav {
   float: left;
-  text-align: left;
+
 
 }
 
-#liceo {
-  float: right;
-}
+
 
 .resize {
   height: 100px;
   width: 100px;
 }
-.navbar2{
+
+.navbar2 {
   background-color: #333333;
 }
+
 .navbar {
   size: 20px;
   background-color: #333333;
   /* Negro */
   overflow: hidden;
   padding: 10px 20px;
- 
+  justify-content: center;
 }
 
 .navbar a {
@@ -41,7 +41,7 @@ body {
   text-decoration: none;
   font-size: 25px;
   font-family: "Raleway", Sans-serif;
-  
+
 
 }
 
@@ -52,31 +52,19 @@ body {
   font-family: "Raleway", Sans-serif;
 }
 
-.institucion {
-  text-align: center;
-  margin-top: 100px;
-}
 
-.funciones {
-  margin-left: 3%;
-  margin-right: 3%;
-  ;
-  text-align: justify;
 
-  background-color: salmon;
-  padding: 10px;
-  border-radius: 20px;
-}
+
 
 .funciones h1 {
   text-align: center;
 }
 
-.contenedor {
+.contenedor1 {
   width: 100%;
   overflow: hidden;
   margin-bottom: 5%;
-  
+
 }
 
 .Nosotros {
@@ -91,7 +79,7 @@ body {
   justify-content: center;
   font-size: 20px;
   border-radius: 20px;
-  
+
   padding: 10px;
 }
 
@@ -107,7 +95,7 @@ body {
 
 .Vision {
   overflow: hidden;
-  
+
   margin-left: 70%;
   margin-top: 3%;
   width: 20%;
@@ -115,12 +103,13 @@ body {
   text-align: justify;
   text-justify: inter-word;
   justify-content: center;
-  
+
   border-radius: 20px;
-  
+
   padding: 10px;
 }
-.Vision h1{
+
+.Vision h1 {
   font-size: 20px;
   border-radius: 20px;
 }
@@ -233,7 +222,8 @@ body {
   width: 1200px;
   margin: 0 auto;
   justify-items: center;
-  text-align: justify;margin-bottom: 0;
+  text-align: justify;
+  margin-bottom: 0;
 }
 
 .carousel {
@@ -241,45 +231,77 @@ body {
   overflow: hidden;
 
 }
-.centro{
+
+.centro {
   font-family: "Montserrat", Sans-serif;
-  padding-top:3% ;
+  padding-top: 3%;
   text-align: center;
-  margin-bottom: 900px;
-  
+  margin-bottom: 30%;
+
 }
-.cargos{
+
+.cargos {
   text-align: left;
   float: left;
- margin-left: 10%;
- font-size: 20px;
- margin-top:3%;
+  margin-left: 10%;
+  font-size: 20px;
+  margin-top: 3%;
+  width: 40%;
 }
-.foto{
+
+.foto {
   margin-top: 3%;
   margin-right: 10%;
   float: right;
   overflow: hidden;
 }
-.proyecto{
-  margin-left:8%;
+
+.proyecto {
+  margin-left: 8%;
   margin-right: 8%;
   margin-top: 5%;
-  font-size: 20px; 
+  font-size: 20px;
   text-align: justify;
 }
-.noticia1 img{
+
+.noticia1 img {
   height: 190px;
   width: 255px;
   -webkit-filter: brightness(100%);
 }
-.noticia1:hover{
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
-  -webkit-filter: brightness(70%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+
+.noticia1:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.funciones {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.eslogan {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  right: 0px;
+bottom: 0px;
+position: fixed;
+}
+.esquina{
+  width: 250px;
+  height: 150px;
+}
+.eslogan img{
+  border-radius: 30px;
+}
+.actividades{
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+  font-size: 20px;
 }
