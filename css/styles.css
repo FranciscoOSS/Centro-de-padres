@@ -17,6 +17,10 @@ body {
   height: 100px;
   width: 100px;
 }
+.resize2 {
+  height: 300px;
+  width: 300px;
+}
 
 .navbar2 {
   background-color: #333333;
