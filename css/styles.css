@@ -18,8 +18,8 @@ body {
   width: 100px;
 }
 .resize2 {
-  height: 300px;
-  width: 300px;
+  height: 70px;
+  width: 400px;
 }
 
 .navbar2 {
@@ -227,7 +227,7 @@ body {
   margin: 0 auto;
   justify-items: center;
   text-align: justify;
-  margin-bottom: 0;
+  margin-bottom: 70px;
 }
 
 .carousel {
@@ -263,7 +263,7 @@ body {
 .proyecto {
   margin-left: 8%;
   margin-right: 8%;
-  margin-top: 5%;
+  margin-top: 15%;
   font-size: 20px;
   text-align: justify;
 }
@@ -280,9 +280,9 @@ body {
 }
 
 .funciones {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2%;
+padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 10%;
   font-size: 20px;
   text-align: justify;
 }
@@ -308,4 +308,10 @@ position: fixed;
   margin-right: 5%;
   text-align: justify;
   font-size: 20px;
+}
+.Titulocal{
+  margin-top: 5%;
+  margin-bottom: 3%;
+  width: 100%;
+  text-align: center;
 }
